@@ -45,10 +45,19 @@ function goLeft() {
     if (secondAnswer === 'back') {
         start()
     }
+    else if (secondAnswer === 'follow') {
+        followCat()
+    }
+    else if (secondAnswer === 'continue') {
+        continuePath()
+    }
 }
 
 function followCat() {
-    let thirdAnswer = window.prompt(``)
+    let thirdAnswer = window.prompt(`You follow the cat to a colony of cats, snuggled in a fort of warm blankets and subsisting off of inexplicably warm soup. They are content with you staying, but you wonder if you should alert the world to this magical safe haven. Do you stay or spread the word?`)
+    if (thirdAnswer === 'back') {
+        goLeft()
+    }
 }
 
 function stayCat() {
@@ -60,7 +69,10 @@ function spreadWord() {
 }
 
 function continuePath() {
-    let thirdAnswer = window.prompt(``)
+    let thirdAnswer = window.prompt(`You come across a chamber that extends upwards to a shining light above. There is a long, winding staircase and a much quicker, but rickety-looking, ladder that leads up towards the light. Which do you take?`)
+    if (thirdAnswer === 'back') {
+        goLeft()
+    }
 }
 
 function ladder() {
@@ -78,10 +90,19 @@ function goRight() {
     if (secondAnswer === 'back') {
         start()
     }
+    else if (secondAnswer === 'past the dragon') {
+        pastDragon()
+    }
+    else if (secondAnswer === 'away from dragon') {
+        awayDragon()
+    }
 }
 
 function pastDragon() {
-    let thirdAnswer = window.prompt(``)
+    let thirdAnswer = window.prompt(`The dragon awakes and sits upright. You only have a moment to respond, to stay or to run:`)
+    if (thirdAnswer === 'back') {
+        goRight()
+    }
 }
 
 function stayDragon() {
@@ -93,7 +114,10 @@ function run(){
 }
 
 function awayDragon() {
-    let thirdAnswer = window.prompt(``)
+    let thirdAnswer = window.prompt(`After walking a while longer, you come across a shiny blue flower. It is so beautiful that you decide you must either draw it or pick it. Which do you do?`)
+    if (thirdAnswer === 'back') {
+        goRight()
+    }
 }
 
 function drawIt() {
