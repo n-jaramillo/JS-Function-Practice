@@ -6,6 +6,29 @@
 //     let secondAnswer = window.prompt(`You come across a snoring drawon. On the other side of him, you see a shiny chest of treasure. Another path would lead you away from the dragon all together. Which do you take?`)
 // }
 
+// [End Here: Use window.alert instead of window.prompt]
+// Prompt: Do you head left or right?
+// Left
+    // Prompt: Follow or Continue
+    // Follow
+        // Prompt: Stay or Spread the Word
+        // Stay [End Here]
+        // Spread the Word [End Here]
+    // Continue
+        // Prompt: Ladder or Staircase
+        // Ladder [End Here]
+        // Staircase [End Here]
+// Right
+    // Prompt: Past the Dragon or Away from the Dragon
+    // Past the Dragon
+        // Prompt: Stay or Run
+            // Stay [End Here]
+            // Run [End Here]
+    // Away from the Dragon
+        // Prompt: Draw It or Pick It
+            // Draw It [End Here]
+            // Pick It [End Here]
+
 function start(){
     let firstAnswer  = window.prompt('Do you head left, or right?')
     if(firstAnswer === 'left'){
