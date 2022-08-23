@@ -48,27 +48,27 @@ function goLeft() {
 }
 
 function followCat() {
-
+    let thirdAnswer = window.prompt(``)
 }
 
 function stayCat() {
-
+    let fourthAnswer = window.prompt(``)
 }
 
 function spreadWord() {
-
+    let fourthAnswer = window.prompt(``)
 }
 
 function continuePath() {
-
+    let thirdAnswer = window.prompt(``)
 }
 
 function ladder() {
-
+    let fourthAnswer = window.prompt(``)
 }
 
 function staircase() {
-
+    let fourthAnswer = window.prompt(``)
 }
 
 function goRight() {
@@ -81,27 +81,27 @@ function goRight() {
 }
 
 function pastDragon() {
-
+    let thirdAnswer = window.prompt(``)
 }
 
 function stayDragon() {
-
+    let fourthAnswer = window.prompt(``)
 }
 
 function run(){
-
+    let fourthAnswer = window.prompt(``)
 }
 
 function awayDragon() {
-
+    let thirdAnswer = window.prompt(``)
 }
 
 function drawIt() {
-
+    let fourthAnswer = window.prompt(``)
 }
 
 function pickIt() {
-    
+    let fourthAnswer = window.prompt(``)
 }
 
 start()
